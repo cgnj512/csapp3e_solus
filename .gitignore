@@ -1,0 +1,4 @@
+# ignore build executable files
+*.a
+
+# Use !123.a to add exceptions
