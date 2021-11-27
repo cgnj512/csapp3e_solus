@@ -1,5 +1,6 @@
 /* 11-27-2021 cgnj512
- * Return 1 when size of Int is 32. */
+ * Return 1 when size of Int is 32.
+ */
 
 int int_size_is_32
 () {

@@ -1,0 +1,12 @@
+/* 11-27-2021 cgnj512
+ * 
+ * Mask with least signficant n bits set to 1
+ * Examples: n=6 0x3F, n=17 0x1FFFF
+ * Assume 1 <= n <= w
+ */
+
+int lower_one_mask
+(int n) {
+	// n can be w. Should not shift by w.
+	return (((1 << (n - 1)) - 1) << 1) + 1;
+}
